@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="mediaqueries.css" /> -->
+    <script src="https://kit.fontawesome.com/874b9d9f8f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="cursor"></div>
+    <nav>
+        <div class="top-nav">
+            <h1>Pavan Teja</h1>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#root">/root</a></li>
+                <li><a href="#about">/about_me</a></li>
+                <li><a href="#logs">/logs</a></li>
+                <li><a href="#contact">/contact_me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="root">
+      <div class="pfp-container">
+        <div class="pfp">
+            <img src="assests/pic.png" alt="Pavan Teja picture">
+        </div>
+      </div>
+        
+        <div class="info hiddens">
+            <p>Hello there, I'm</p>
+            <h1>M. Pavan Teja</h1>
+            <div class='console-container'>
+                and I'm a
+                <span id='text'></span>
+                <div class='console-underscore' id='console'>
+                    &#95;
+                </div>
+            </div>
+            <div class="btn-container">
+                <button class="btn01"><a href="assests/Resume.pdf" target="_blank" style="color: white;">Download CV</a></button>
+                <button class="btn02">Contact</button>
+            </div>
+            <div class="social-container">
+                <img src="assests/icons8-linkedin.svg" onclick="window.open('https://www.linkedin.com/in/pavan-teja-a76960269/')" alt="Linked-in profile">
+                <img src="assests/github.png" onclick="window.open('https://github.com/pavanteja18')" alt="Github profile">
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="about">
+      <div class="content">
+
+        <h1 class="about-title">About me</h1>
+        <div class="container">
+            <div class="timeline">
+              <ul>
+                <li>
+                  <div class="timeline-content hidden">
+                    <h3 class="date">20th may, 2019</h3>
+                    <h1>/Jeevadan High School</h1>
+                    <p>/ I have completed my schooling from Jeevadan High School, Kamareddy. I have secured a score of 9.7 CGPA out of 10. </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-content hidden">
+                    <h3 class="date">20th may, 2021</h3>
+                    <h1> / Narayana Junior College</h1>
+                    <p>/ My Intermediate Education was done at Narayana Junior College, Hyderabad under the Mathematics Stream. I was able to score academically a percentage of 91.8%.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-content hidden">
+                    <h3 class="date">20th may, 2025</h3>
+                    <h1>/ Malla Reddy Engineering College</h1>
+                    <p class="txt">/ I am pursuing my Pre-graduate at Malla Reddy Engineering College, Hyderabad. I have secured a CGPA of 8.5.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="logs">
+      <p class="logs-p hidden">Here are my</p>
+      <h1 class="title hidden">Logs and Experiences</h1>
+      <div class="content-holder hidden">
+        <div class="logs hidden">
+          <h1>Technical Skills</h1>
+          <ul>
+            <li>
+              <i class="fa-brands fa-html5 fa-2xl"></i>
+              <h1>HTML</h1>
+              <p>Experienced</p>
+            </li>
+            <li>
+              <i class="fa-brands fa-css3-alt fa-2xl"></i>
+              <h1>CSS</h1>
+              <p>Experienced</p>
+            </li>
+            <li>
+              <i class="fa-brands fa-js fa-2xl"></i>
+              <h1>JavaScript</h1>
+              <p>Intermediate</p>
+            </li>
+            <li>
+              <i class="fa-brands fa-node fa-2xl"></i>
+              <h1>NodeJS</h1>
+              <p>Intermediate</p>
+            </li>
+            <li>
+              <i class="fa-solid fa-keyboard fa-2xl"></i>
+              <h1>TypeScript</h1>
+              <p>Baiscs</p>
+            </li>
+            <li>
+              <i class="fa-brands fa-python fa-2xl"></i>
+              <h1>Python</h1>
+              <p>Experienced</p>
+            </li>
+            <li>
+              <i class="fa-brands fa-python fa-2xl"></i>
+              <h1>Python</h1>
+              <p>Experienced</p>
+            </li>
+            <li>
+              <i class="fa-solid fa-database fa-2xl"></i>
+              <h1>SQL</h1>
+              <p>Intermediate</p>
+            </li>
+            <li>
+              <i class="fa-solid fa-republican fa-2xl"></i>
+              <h1>PostgreSQL</h1>
+              <p>Basics</p>
+            </li>
+            <li>
+              <i class="fa-brands fa-react fa-2xl"></i>
+              <h1>ReactJS</h1>
+              <p>Basics</p>
+            </li>
+          </ul>
+        </div>
+        <!-- <div class="experiences hidden">
+          <h1>Experiences</h1>
+          <ul>
+            <li>
+              <i class="fa-solid fa-a fa-2xl"></i>
+              <h1>Company</h1>
+              <p>2+ years</p>
+            </li>
+            <li>
+              <i class="fa-solid fa-b fa-2xl"></i>
+              <h1>Company</h1>
+              <p>4+ years</p>
+            </li>
+            <li>
+              <i class="fa-solid fa-c fa-2xl"></i>
+              <h1>Compan</h1>
+              <p>3 years</p>
+            </li>
+          </ul>
+        </div> -->
+      </div>
+    </section>
+
+    <section id="logs">
+      <p class="logs-p hidden">Browse my Recent</p>
+      <h1 class="title hidden">Projects</h1>
+      <div class="content-holder hidden">
+        <div class="logs hidden">
+          <h3>Project 1</h3>
+          <h1>My Portfolio</h1>
+          <img class="project-img" src="assests/portfolio.png" width="300px" height="auto" style="border-radius: 10px;">
+          <hr>
+          <button><a href="https://github.com/pavanteja18/portfolio">Github</a></button>
+        </div>
+        <div class="logs hidden">
+          <h3>Project 2</h3>
+          <h1>Bhagavad Gita</h1>
+          <img class="project-img" src="assests/BhagavadGita.png" width="300px" height="auto" style="border-radius: 10px;">
+          <hr>
+          <button><a href="https://github.com/pavanteja18/bhagavad-gita">Github</a></button>
+        </div>
+        <div class="break"></div>
+        <div class="logs hidden">
+          <h3>Project 3</h3>
+          <h1>News Today</h1>
+          <img class="project-img" src="assests/NewsToday.png" width="300px" height="auto" style="border-radius: 10px;">
+          <hr>
+          <button><a href="https://github.com/pavanteja18/News-feed-website-api">Github</a></button>
+        </div>
+        <div class="logs hidden">
+          <h3>Project 4</h3>
+          <h1>Full Stack Todo List</h1>
+          <img class="project-img" src="assests/Todolist.png" width="300px" height="auto" style="border-radius: 10px;">
+          <hr>
+          <button><a href="https://github.com/pavanteja18/todo-list">Github</a></button>
+        </div>
+        <!-- <div class="experiences hidden">
+          <h1>Experiences</h1>
+          <ul>
+            <li>
+              <i class="fa-solid fa-a fa-2xl"></i>
+              <h1>Company</h1>
+              <p>2+ years</p>
+            </li>
+            <li>
+              <i class="fa-solid fa-b fa-2xl"></i>
+              <h1>Company</h1>
+              <p>4+ years</p>
+            </li>
+            <li>
+              <i class="fa-solid fa-c fa-2xl"></i>
+              <h1>Compan</h1>
+              <p>3 years</p>
+            </li>
+          </ul>
+        </div> -->
+      </div>
+    </section>
+   
+
+    <section id="contact">
+      <div class="contact-content">
+        <p class="section__text__p1 hidden">Get in Touch</p>
+        <h1 class="title hidden">Contact Me</h1>
+        <div class="contact-info-upper-container hidden">
+          <div class="contact-info-container">
+            <img
+              src="./assests/mail.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+              height="96px"
+            />
+            <p><a href="mailto:examplemail@gmail.com">Send me a Mail</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="assests/icons8-linkedin.svg"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+              height="96px"
+            />
+            <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          </div>
+        </div>
+      </div>
+      </section>
+      <footer>
+        <nav>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#root">/root</a></li>
+                    <li><a href="#about">/about_me</a></li>
+                    <li><a href="#logs">/logs</a></li>
+                    <li><a href="#contact">/contact_me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Pavan Teja. All Rights Reserved.</p>
+      </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
